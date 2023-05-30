@@ -36,10 +36,10 @@
                             <div>
                                 <label for="Status" class="block text-sm font-medium text-gray-700 dark:text-gray-200">Status:</label>
                                 <select name="xstatus" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 dark:bg-gray-900 dark:text-gray-100 dark:border-gray-600">
-                                <option value="Approved" {{ $bookmon->status === 'Approved' ? 'selected' : '' }}>Approved</option>
-                                <option value="Pending" {{ $bookmon->status === 'Pending' ? 'selected' : '' }}>Pending</option>
-                                <option value="Received" {{ $bookmon->status === 'Received' ? 'selected' : '' }}>Received</option>
-                                <option value="Declined" {{ $bookmon->status === 'Declined' ? 'selected' : '' }}>Declined</option>
+                                    <option value="Approved" {{ $bookmon->status === 'Approved' ? 'selected' : '' }}>Approved</option>
+                                    <option value="Pending" {{ $bookmon->status === 'Pending' ? 'selected' : '' }}>Pending</option>
+                                    <option value="Received" {{ $bookmon->status === 'Received' ? 'selected' : '' }}>Received</option>
+                                    <option value="Declined" {{ $bookmon->status === 'Declined' ? 'selected' : '' }}>Declined</option>
                                 </select>
                             </div>
                             <div>
@@ -48,10 +48,10 @@
                             </div>
                         </div><br><br>
                         <div class="flex justify-between">
-                        <button type="submit" class="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-500"> Submit</button>
-                        <a class="ml-4 inline-block bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 rounded" href="{{route('bookmonitor')}}"> Back </a>
+                            <button type="submit" class="px-4 py-2 text-sm font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-500"> Submit</button>
+                            <a class="ml-4 inline-block bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 rounded" href="{{route('bookmonitor')}}"> Back </a>
 
-                        <!-- </div>
+                            <!-- </div>
                         <div class="flex justify-start mt-4">
 
                         </div>
